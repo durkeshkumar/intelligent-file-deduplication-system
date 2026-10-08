@@ -1,0 +1,59 @@
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# File Storage
+storage/
+backend/storage/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Database
+*.sqlite3
+
+# Node / React
+node_modules/
+frontend/node_modules/
+
+# Build Output
+dist/
+frontend/dist/
+build/
+frontend/build/
+
+# Vite
+frontend/.vite/
